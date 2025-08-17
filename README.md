@@ -10,13 +10,9 @@ A simple image compression web app that lets you upload an image, compress it at
 Upload JPG/PNG images.
 
 Preview original vs compressed images.
-
 See size reduction, compression ratio, % savings.
-
 Choose compression quality (25%, 50%, 75%, 90%).
-
 Download compressed image.
-
 Responsive, modern UI.
 
 📸 Demo
@@ -27,7 +23,6 @@ Example:
 🛠️ Tech Stack
 
 Frontend: HTML, CSS, JavaScript
-
 Compression: Canvas API (JPEG encoding)
 
 Future (Planned): Python (Flask) + OpenCV + K-Means clustering
@@ -38,32 +33,20 @@ git clone https://github.com/KarthikeyanGnanasekaran/image-compressor.git
 cd image-compressor
 
 2. Run locally
-
 Just open index.html in your browser.
-
 OR use VS Code Live Server extension for hot reload.
 
 📂 Project Structure
 📦 ai-image-compressor
  ┣ 📜 index.html      # Main UI
- ┣ 📜 style.css       # Styling
- ┣ 📜 script.js       # Compression logic
  ┗ 📜 README.md       # Documentation
 
 🔮 Future Improvements
 
 ✅ Smarter compression using K-Means clustering (AI-based).
-
 ✅ Support for batch image compression.
-
 ✅ Drag & drop uploads.
-
 ✅ Deploy to Vercel/Netlify for public access.
 
 🤝 Contributing
-
 Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
-
-📜 License
-
-This project is licensed under the MIT License – see the LICENSE file for details.
